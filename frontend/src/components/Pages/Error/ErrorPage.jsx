@@ -1,9 +1,12 @@
 import React from "react";
+import PageContent from "../PageContent/PageContent";
 
 const ErrorPage = () => {
   return (
     <div>
-      <h1>Page was not found.</h1>
+      <PageContent title="An error occurred!">
+        <p>Something went wrong</p>
+      </PageContent>
     </div>
   );
 };
